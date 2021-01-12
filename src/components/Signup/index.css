@@ -1,0 +1,43 @@
+.mainWrapper{
+    margin-top: 25px;
+    border: 1px solid snow;
+    border-radius: 12px;
+}
+.middle{
+    background-color: snow;
+    margin: auto;
+    clear:both;
+    padding-top: 13px;
+}
+.mail, .pwd, .pwd-repeat{
+    margin: 10px;
+    width: 20rem;
+    height: 2rem;
+    font-size: 16px;
+    border: 2px solid darkgray;
+    border-radius: 6px;
+}
+input[type=email]:focus, input[type=password]:focus{
+    border: 2px solid #231c2b;
+}
+.submitButton{
+    background-color: #231c2b;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: snow;
+    font-size: 22px;
+    width: 20rem;
+    height: 3.5rem;
+    transition-duration: 0.2s;
+}
+.submitButton:active{
+    transform: translateY(4px);
+    border:none;
+}
+.submitButton:hover{
+    color: #231c2b;
+    background-color: snow;
+    border: 1px solid #231c2b;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

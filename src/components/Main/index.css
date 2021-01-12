@@ -1,0 +1,85 @@
+.mainWrapper{
+    margin: auto;
+    text-align: center;
+    width: 30rem;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.attentionText{
+    padding: 10px;
+}
+
+.divFirst{
+    height: 10px;
+    width: 100%;
+    background-color: white;
+}
+.divSecond{
+    height: 10px;
+    width: 100%;
+    background-color: #231c2b;
+}
+.middleWrapper{
+    background-color: snow;
+    color: #231c2b;
+    border: 0.01px solid #231c2b
+}
+.registerWrapper{
+    margin-bottom: 2rem;
+}
+
+.divThird{
+    height: 10px;
+    width: 100%;
+    background-color: #231c2b;
+}
+.divFourth{
+    height: 10px;
+    width: 100%;
+    background-color: snow;
+}
+
+.welcomeText{
+    font-size: 42px;
+}
+.hr1{
+    background-color: snow;
+    border-radius: 32px;
+}
+.loginButton, .registerButton{
+    background-color: transparent;
+    border-radius: 12px;
+
+    color: snow;
+    border: 2px solid snow;
+    font-size: 16px;
+    width: 13rem;
+    height: 3.5rem;
+    transition-duration: 0.2s;
+}
+.loginButton:active, .registerButton:active{
+    transform: translateY(4px);
+    border:none;
+}
+.loginButton{
+    background-color: #231c2b;
+    border: 2px solid snow;
+    color: snow;
+}
+.loginButton:hover{
+    color: #231c2b;
+    background-color: snow;
+    border: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.registerButton{
+    border: 2px solid #231c2b;
+    color: #231c2b;
+}
+.registerButton:hover{
+    color: snow;
+    background-color: #231c2b;
+    border: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
