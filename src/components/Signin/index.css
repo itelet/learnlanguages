@@ -3,13 +3,26 @@
     border: 1px solid snow;
     border-radius: 12px;
 }
+.errMsg{
+    color: red;
+    font-size: 24px;
+    background-color: snow;
+    margin: 20px;
+}
+.signSVG{
+    height: 60px;
+}
+.welcome{
+    margin: 10px;
+    margin-bottom: 20px;
+}
 .middle{
     background-color: snow;
     margin: auto;
     clear:both;
     padding-top: 13px;
 }
-.mail, .pwd, .pwd-repeat{
+.mail, .pwd{
     margin: 10px;
     width: 20rem;
     height: 2rem;

@@ -4,11 +4,12 @@ import { connect } from "react-redux";
 import { Redirect } from "react-router-dom";
 import { signup } from "../../store/actions/authAction";
 
+import SignSVG from '../../images/signup.svg'
+
 class Signup extends Component {
   state = {
     email: "",
     password: "",
-    passwordrepeat: "",
   };
   handleChange = (e) => {
     this.setState({
@@ -28,8 +29,11 @@ class Signup extends Component {
     }
     return (
       <form onSubmit={this.handleSubmit} className="mainWrapper">
-        <div className="welcome">
-          <h2>Learn_A_Language</h2>
+        <div style={{display: "flex"}}>
+          <img className="SignSVG" src={SignSVG}></img>
+          <div className="welcome">
+            <h2>Learn_A_Language</h2>
+          </div>
         </div>
         <div className="middle">
           <div className="mailWrapper">
@@ -50,19 +54,13 @@ class Signup extends Component {
               onChange={this.handleChange}
             ></input>
           </div>
-          <div className="passwordRptWrapper">
-            <input
-              className="pwd-repeat"
-              type="password"
-              id="passwordrepeat"
-              placeholder="Password Repeat"
-              onChange={this.handleChange}
-            ></input>
-          </div>
           <div className="submitWrapper">
             <button className="block" type="submit" className="submitButton">
               Register
             </button>
+          </div>
+          <div className="errMsg">
+             <p>{authError}</p>
           </div>
         </div>
       </form>

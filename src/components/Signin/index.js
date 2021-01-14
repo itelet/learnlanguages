@@ -5,6 +5,8 @@ import {connect} from 'react-redux';
 import {signin} from '../../store/actions/authAction'
 import { Redirect } from 'react-router-dom';
 
+import SignSVG from '../../images/signin.svg'
+
 export class Signin extends Component {
     state = {
         email: '',
@@ -24,8 +26,11 @@ export class Signin extends Component {
         if(auth.uid) return <Redirect to="/" />
         return (
             <form onSubmit={this.handleSubmit} className="mainWrapper">
-                <div className="welcome">
-                    <h2>Learn_A_Language</h2>
+                <div style={{display:"flex"}}>
+                    <img src={SignSVG} className="signSVG"></img>
+                    <div className="welcome">
+                        <h2>Learn_A_Language</h2>
+                    </div>
                 </div>
                 <div className="middle">
                     <div className="mailWrapper">
@@ -36,6 +41,9 @@ export class Signin extends Component {
                     </div>
                     <div className="submitWrapper">
                         <button className="submitButton">Log in</button>
+                    </div>
+                    <div className="errMsg">
+                        <p>{authError}</p>
                     </div>
                 </div>
             </form>
