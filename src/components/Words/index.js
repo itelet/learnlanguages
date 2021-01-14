@@ -7,7 +7,6 @@ import { Redirect } from "react-router-dom";
 
 class Words extends Component {
   render() {
-    //console.log(this.props)
     const { words, auth } = this.props;
     if (!auth.uid) return <Redirect to="/" />;
     return (
