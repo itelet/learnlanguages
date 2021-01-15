@@ -6,7 +6,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
     border: none;
-    background-color: #231c2b;
+    background-color: var(--color-primary);
 }
 .attentionText{
     padding: 10px;
@@ -15,17 +15,17 @@
 .divFirst{
     height: 10px;
     width: 100%;
-    background-color: white;
+    background-color: var(--color-secondary);
 }
 .divSecond{
     height: 10px;
     width: 100%;
-    background-color: #231c2b;
+    background-color: var(--color-primary);
 }
 .middleWrapper{
-    background-color: snow;
-    color: #231c2b;
-    border: 0.01px solid #231c2b
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border: 0.01px solid var(--color-primary)
 }
 .registerWrapper{
     margin-bottom: 2rem;
@@ -34,12 +34,12 @@
 .divThird{
     height: 10px;
     width: 100%;
-    background-color: #231c2b;
+    background-color: var(--color-primary);
 }
 .divFourth{
     height: 10px;
     width: 100%;
-    background-color: snow;
+    background-color: var(--color-secondary);
 }
 
 .welcomeText{
@@ -47,15 +47,15 @@
     margin-bottom: 30px;
 }
 .hr1{
-    background-color: snow;
+    background-color: var(--color-secondary);
     border-radius: 32px;
 }
 .loginButton, .registerButton{
     background-color: transparent;
     border-radius: 12px;
 
-    color: snow;
-    border: 2px solid snow;
+    color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
     font-size: 16px;
     width: 13rem;
     height: 3.5rem;
@@ -66,23 +66,23 @@
     border:none;
 }
 .loginButton{
-    background-color: #231c2b;
-    border: 2px solid snow;
-    color: snow;
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
 }
 .loginButton:hover{
-    color: #231c2b;
-    background-color: snow;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
     border: none;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .registerButton{
-    border: 2px solid #231c2b;
-    color: #231c2b;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
 }
 .registerButton:hover{
-    color: snow;
-    background-color: #231c2b;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
     border: none;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

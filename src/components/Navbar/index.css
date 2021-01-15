@@ -1,12 +1,12 @@
 .ButtonWrapper{
-    border: 1px solid #231c2b;
+    border: 1px solid var(--color-primary);
     border-radius: 6px;
 }
 .Buttons{
-    color: #231c2b;
+    color: var(--color-primary);
     background-color: transparent;
     margin: 10px;
-    border: 1px solid #231c2b;
+    border: 1px solid var(--color-primary);
     transition-duration: 0.2s;
 }
 .Buttons:active{
@@ -14,7 +14,7 @@
     border:none;
 }
 .Buttons:hover{
-    color: snow;
-    background-color: #231c2b;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

@@ -1,6 +1,6 @@
 .mainWrapper{
     margin-top: 25px;
-    border: 1px solid snow;
+    border: 1px solid var(--color-secondary);
     border-radius: 12px;
 }
 .SignSVG{
@@ -13,11 +13,11 @@
 .errMsg{
     color: red;
     font-size: 24px;
-    background-color: snow;
+    background-color: var(--color-secondary);
     margin: 20px;
 }
 .middle{
-    background-color: snow;
+    background-color: var(--color-secondary);
     margin: auto;
     clear:both;
     padding-top: 13px;
@@ -31,14 +31,14 @@
     border-radius: 6px;
 }
 input[type=email]:focus, input[type=password]:focus{
-    border: 2px solid #231c2b;
+    border: 2px solid var(--color-primary);
 }
 .submitButton{
-    background-color: #231c2b;
+    background-color: var(--color-primary);
     border-radius: 6px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: snow;
+    color: var(--color-secondary);
     font-size: 22px;
     width: 20rem;
     height: 3.5rem;
@@ -49,8 +49,8 @@ input[type=email]:focus, input[type=password]:focus{
     border:none;
 }
 .submitButton:hover{
-    color: #231c2b;
-    background-color: snow;
-    border: 1px solid #231c2b;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-primary);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
