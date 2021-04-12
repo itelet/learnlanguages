@@ -1,0 +1,25 @@
+.main{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.submitsButton{
+    text-decoration: none;
+    border: 1px solid var(--color-secondary);
+    background-color: var(--color-primary);
+    border-radius: 6px;
+    margin-top: 20px;
+    color: var(--color-secondary);
+    font-size: 26px;
+    height: 75px;
+    transition-duration: 0.2s;
+}
+.submitsButton:active{
+    transform: translateY(4px);
+    border:none;
+}
+.submitsButton:hover{
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-primary);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
